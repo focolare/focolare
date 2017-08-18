@@ -769,3 +769,23 @@ html, body {
 .deepOrangeA400text { color: #ff3d00 !important; }
 .deepOrangeA700text { color: #dd2c00 !important; }
 .f-round {border-radius: 50%; line-height: 2em;}
+h5, h4 { display: block; width: 100%; align-items: center; text-align: center;}
+#view-source {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}
+
+#back-parent {
+  position: fixed;
+  display: block;
+  left: 0;
+  bottom: 0;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  z-index: 900;
+}

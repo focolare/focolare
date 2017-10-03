@@ -789,6 +789,16 @@ h5, h4 { display: block; width: 100%; align-items: center; text-align: center;}
   z-index: 900;
 }
 
+#view-diary {
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 200px;
+  z-index: 900;
+}
+
 #back-parent {
   position: fixed;
   display: block;
@@ -798,3 +808,10 @@ h5, h4 { display: block; width: 100%; align-items: center; text-align: center;}
   margin-bottom: 40px;
   z-index: 900;
 }
+
+.cal-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.cal-col-1 {width: 14.28%;}

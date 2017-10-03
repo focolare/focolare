@@ -1,0 +1,21 @@
+{
+  "menu_passaparola" : [
+    { "name" : "Верасень 2017", "url" :"/passaparola/09-2017.html"},
+    { "name" : "Жнівень 2017", "url" : "/passaparola/08-2017.html" },
+    { "name" : "Ліпень 2017", "url" : "/passaparola/07-2017.html"},
+    { "name" : "Чэрвень 2017", "url" : "/passaparola/08-2017.html"},
+    { "name" : "Травень 2017", "url" : "/passaparola/08-2017.html"}
+  ],
+  "daily_passaparola" : {
+    "date" : "7 Верасня",
+    "phrase" : "",
+    "comment" : "",
+    "image" : ""
+  },
+  "hots" : {
+    "title" : "",
+    "subtitle" : "",
+    "description" : "",
+    "image" : ""
+  }
+}
